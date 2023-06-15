@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="./Assets/logo/logo-3.png" />
+    <title>Steak</title>
+    <link href="./CSS/style.css" rel="stylesheet" type="text/css" />
+    <link href="./CSS/reponsive.css" rel="stylesheet"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="wrapper-nav">
+        <nav>
+          <input type="checkbox" id="show-menu" />
+          <label for="show-menu" class="menu-icon"
+            ><i class="fas fa-bars"></i
+          ></label>
+          <div class="content">
+            <div class="logo-container">
+              <a href="./index.html" class="home"><div class="logo"></div></a>
+            </div>
+            <div class="end-nav">
+              <ul class="links">
+                <li><a class="active-page" href="./index.html">Home</a></li>
+                <li><a href="./HTML/about.html">About Us</a></li>
+
+                <li>
+                  <a href="./HTML/menu.html" class="menu-link">Menu</a>
+                  <input type="checkbox" id="show-Menu" />
+                  <label for="show-Menu">Menu</label>
+                  <ul>
+                    <li>
+                      <button class="btn-ul" onclick="setpageHome('all')">
+                        All
+                      </button>
+                    </li>
+                    <li>
+                      <button class="btn-ul" onclick="setpageHome('steaks')">
+                        Steaks
+                      </button>
+                    </li>
+                    <li>
+                      <button class="btn-ul" onclick="setpageHome('desserts')">
+                        Desserts
+                      </button>
+                    </li>
+                    <li>
+                      <button class="btn-ul" onclick="setpageHome('drinks')">
+                        Drinks
+                      </button>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="./HTML/promo.html">Promo</a></li>
+
+                <li><a href="./HTML/reservation.html">Reservation</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="section-1">
+          <div class="slider-container">
+            <div class="slider-outline">
+              <div class="button-container">
+                <button class="prev">
+                  <i class="fas fa-caret-left"></i>
+                </button>
+                <button class="next">
+                  <i class="fas fa-caret-right"></i>
+                </button>
+              </div>
+              <div class="pagination-container">
+                <ul class="pagination">
+                  <li class="pagination-item">
+                    <a
+                      href="#"
+                      id="pag-1"
+                      class="pagination-link active-pagination"
+                    ></a>
+                  </li>
+                  <li class="pagination-item">
+                    <a href="#" id="pag-2" class="pagination-link"></a>
+                  </li>
+                  <li class="pagination-item">
+                    <a href="#" id="pag-3" class="pagination-link"></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="slider" id="slider">
+                <ul class="slides">
+                  <li class="slide slide1">
+                    <div class="background-slide">
+                      <h2>A Leading Destination<br />for Steak</h2>
+                      <p>
+                        Indulgence lives here, where perfectly prime steak meets
+                        classic New Orleans inspired sides and hand-crafted
+                        cocktails all served alongside Steak's own brand of warm
+                        hospitality.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="slide slide2">
+                    <div class="background-slide">
+                      <h2>Legendary Steakhouse<br />in Town</h2>
+                      <p>
+                        Over the past half century Steak’s has developed an
+                        international reputation for quality food and
+                        exceptional service. Serving only "Certified Beef" TM
+                        steaks, naturally aged, cut and trimmed on premise.
+                        Fresh Atlantic salmon, scallops, chicken and ribs are
+                        also available.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="slide slide3">
+                    <div class="background-slide">
+                      <h2>
+                        Best value, fare for five for<br />1.200.000,00 VND
+                      </h2>
+                      <p>
+                        We're always creating new dishes for every appetite at
+                        affordable price. Join us for mouth-watering seasonal
+                        dishes that are here for a limited time.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="slide slide1">
+                    <div class="background-slide">
+                      <h2>A Leading Destination<br />for Steak</h2>
+                      <p>
+                        Indulgence lives here, where perfectly prime steak meets
+                        classic New Orleans inspired sides and hand-crafted
+                        cocktails all served alongside Ruth's own brand of warm
+                        hospitality.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="down-arr" id="scroll-pos">
+              <a href="#scroll-pos">
+                <i class="fas fa-chevron-down"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="section-2" id="section-2">
+          <div class="page-container-grid pg-1">
+            <div class="img-1" id="grid-1"></div>
+            <div class="page-info" id="grid-2">
+              <p class="intro-info">Most Popular</p>
+              <h2 class="title-info">Brown Rubbed<br />Filet Mignon</h2>
+              <p class="outro-info">
+                Coat tender filet mignon steaks in a garlic-spiked herb mixture
+                and marinate for a couple of hours before grilling. Using dried
+                herbs in the marinade creates a fabulous crust on the meat.
+              </p>
+
+              <button onclick="setpageHome('steaks')" class="button-page">
+                View Menu
+              </button>
+            </div>
+          </div>
+        </section>
+        <section class="section-3">
+          <div class="page-container-grid pg-2">
+            <div class="page-info" id="grid-1">
+              <p class="intro-info">Chef's Recommendation</p>
+              <h2 class="title-info">Grilled Steak<br />Compound Butter</h2>
+              <p class="outro-info">
+                Strip loin steaks are flavored with simple compound butter.
+                Featuring parsley and lemon juice. Served with french fries or a
+                baked potato.
+              </p>
+
+              <button onclick="setpageHome('all')" class="button-page">
+                Explore
+              </button>
+            </div>
+            <div class="img-1 im-2" id="grid-2"></div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="social-container">
+          <div class="footer-info">
+            <a href="https://www.instagram.com/">
+              <i class="fab fa-instagram social"></i>
+            </a>
+          </div>
+          <div class="footer-info">
+            <a href="https://www.facebook.com/">
+              <i class="fab fa-facebook-f social"></i>
+            </a>
+          </div>
+          <div class="footer-info">
+            <a href="#">
+              <i class="fab fa-twitter social"></i>
+            </a>
+          </div>
+        </div>
+        <div class="more-info-container">
+          <div class="footer-info-2"></div>
+          <h5 class="more-info">
+            
+          </h5>
+          <h5 class="more-info copyright">© 2023 Group9</h5>
+        </div>
+      </div>
+    </footer>
+    <script src="./JS/menu-pass.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./JS/slider.js"></script>
+  </body>
+</html>

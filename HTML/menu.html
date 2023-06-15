@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="../Assets/logo/logo-3.png" />
+    <title>Steak</title>
+    <link href="../CSS/style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="wrapper-nav">
+        <nav>
+          <input type="checkbox" id="show-menu" />
+          <label for="show-menu" class="menu-icon"
+            ><i class="fas fa-bars"></i
+          ></label>
+          <div class="content">
+            <div class="logo-container">
+              <a href="../index.html" class="home"><div class="logo"></div></a>
+            </div>
+            <div class="end-nav">
+              <ul class="links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+
+                <li>
+                  <a href="menu.html" class="active-page menu-link">Menu</a>
+                  <input type="checkbox" id="show-Menu" />
+                  <label for="show-Menu">Menu</label>
+                  <ul>
+                    <li>
+                      <button class="btn-ul" onclick="setpage('all')">
+                        All
+                      </button>
+                    </li>
+                    <li>
+                      <button class="btn-ul" onclick="setpage('steaks')">
+                        Steaks
+                      </button>
+                    </li>
+                    <li>
+                      <button class="btn-ul" onclick="setpage('desserts')">
+                        Desserts
+                      </button>
+                    </li>
+                    <li>
+                      <button class="btn-ul" onclick="setpage('drinks')">
+                        Drinks
+                      </button>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="promo.html">Promo</a></li>
+
+                <li><a href="reservation.html">Reservation</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="section-1">
+          <div class="btn-nav" id="filter-btn-container">
+            <button
+              class="filter-btn active all"
+              onclick="filterSelection('all')"
+            >
+              All
+            </button>
+            <button
+              class="filter-btn steaks"
+              onclick="filterSelection('steaks')"
+            >
+              Steaks
+            </button>
+
+            <button
+              class="filter-btn desserts"
+              onclick="filterSelection('desserts')"
+            >
+              Desserts
+            </button>
+            <button
+              class="filter-btn drinks"
+              onclick="filterSelection('drinks')"
+            >
+              Drinks
+            </button>
+          </div>
+          <div class="row">
+            <div class="column">
+              <div class="prop-card steaks">
+                <a href="#"> <div class="prop-image img-1"></div></a>
+                <div class="prop-description">
+                  <h5>Brown Rubbed Filet Mignon</h5>
+                  <p>
+                    Coat tender filet mignon steaks in a garlic-spiked herb
+                    mixture and marinate for grilling.
+                  </p>
+                  <h5 class="card-price">320.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+              <div class="prop-card steaks">
+                <a href="#"> <div class="prop-image img-5"></div></a>
+                <div class="prop-description">
+                  <h5>Jack Daniel's Flank Steak</h5>
+                  <p>
+                    Perfectly grilled flank steak, topped with a simple, creamy
+                    mushroom sauce.
+                  </p>
+                  <h5 class="card-price">350.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+              <div class="prop-card desserts">
+                <a href="#"> <div class="prop-image img-9"></div></a>
+                <div class="prop-description">
+                  <h5>Ice Cream Float</h5>
+                  <p>
+                    Ice cream floats are an iconic American treat that will take
+                    you right back to your childhood.
+                  </p>
+                  <h5 class="card-price">25.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+              <div class="prop-card drinks">
+                <a href="#"> <div class="prop-image img-13"></div></a>
+                <div class="prop-description">
+                  <h5>Blue Hawaiian Cocktail</h5>
+                  <p>
+                    The Hawaii-loving crooner would surely approve of this
+                    tropical cocktail.
+                  </p>
+                  <h5 class="card-price">55.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+              <div class="prop-card drinks">
+                <a href="#"> <div class="prop-image img-17"></div></a>
+                <div class="prop-description">
+                  <h5>Mounds Bar Cocktail</h5>
+                  <p>
+                    Do you like the idea of drinking a Mounds candy bar in
+                    liquid form? Then you'll flip for the Mounds bar cocktail.
+                  </p>
+                  <h5 class="card-price">50.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+              <div class="prop-card desserts">
+                <a href="#"> <div class="prop-image img-21"></div></a>
+                <div class="prop-description">
+                  <h5>Cookies and Cream</h5>
+                  <p>
+                    The blended mix of milk, ice cream, and chunks of cookies is
+                    a delicious frozen treat.
+                  </p>
+                  <h5 class="card-price">35.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+            </div>
+            <div class="column">
+              <div class="prop-card steaks">
+                <a href="#"> <div class="prop-image img-2"></div></a>
+                <div class="prop-description">
+                  <h5>Grilled Steak Compound Butter</h5>
+                  <p>
+                    Strip loin steaks are flavored with simple compound butter.
+                    Featuring parsley.
+                  </p>
+                  <h5 class="card-price">420.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+              <div class="prop-card drinks">
+                <a href="#"> <div class="prop-image img-6"></div></a>
+                <div class="prop-description">
+                  <h5>Wine Spritzer</h5>
+                  <p>
+                    Dry and sparkling wines are low-carb (about 1 to 2 grams)
+                    and fit into a keto diet.
+                  </p>
+                  <h5 class="card-price">65.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+              <div class="prop-card steaks">
+                <a href="#"> <div class="prop-image img-10"></div></a>
+                <div class="prop-description">
+                  <h5>Grilled Flat Iron Steak</h5>
+                  <p>
+                    Marinate flavorful flat iron steaks simply in balsamic
+                    vinegar and seasonings.
+                  </p>
+                  <h5 class="card-price">299.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+              <div class="prop-card desserts">
+                <a href="#"> <div class="prop-image img-14"></div></a>
+                <div class="prop-description">
+                  <h5>Frozen S'mores</h5>
+                  <p>
+                    S’mores are the ultimate summer time treat. Most of us will
+                    happily eat them any time of year.
+                  </p>
+                  <h5 class="card-price">42.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+              <div class="prop-card desserts">
+                <a href="#"> <div class="prop-image img-18"></div></a>
+                <div class="prop-description">
+                  <h5>Chocolate Chia Pudding</h5>
+                  <p>
+                    Tiny little chia seeds are more than they appear—in fact,
+                    they are often labeled as a "superfood".
+                  </p>
+                  <h5 class="card-price">30.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+              <div class="prop-card drinks">
+                <a href="#"> <div class="prop-image img-22"></div></a>
+                <div class="prop-description">
+                  <h5>Triple Espresso Martini</h5>
+                  <p>
+                    Looking for a vodka martini? This turbo-charged cocktail is
+                    perfect.
+                  </p>
+                  <h5 class="card-price">75.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+            </div>
+            <div class="column">
+              <div class="prop-card steaks">
+                <a href="#"> <div class="prop-image img-3"></div></a>
+                <div class="prop-description">
+                  <h5>Steak Salad</h5>
+                  <p>
+                    Is it a steak dinner or a main course salad? This yummy,
+                    healthy steak salad is both.
+                  </p>
+                  <h5 class="card-price">350.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+              <div class="prop-card desserts">
+                <a href="#"> <div class="prop-image img-7"></div></a>
+                <div class="prop-description">
+                  <h5>Strawberry Cheesecake</h5>
+                  <p>
+                    These homemade ice cream sandwiches are made with blended
+                    cream cheese and a strawberry.
+                  </p>
+                  <h5 class="card-price">50.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+              <div class="prop-card steaks">
+                <a href="#"> <div class="prop-image img-11"></div></a>
+                <div class="prop-description">
+                  <h5>Beef Shoulder with White sauce</h5>
+                  <p>
+                    The fatty beef shoulder goes incredibly well with the creamy
+                    sauce.
+                  </p>
+                  <h5 class="card-price">300.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+              <div class="prop-card desserts">
+                <a href="#"> <div class="prop-image img-15"></div></a>
+                <div class="prop-description">
+                  <h5>Biscoff Malted Milkshake</h5>
+                  <p>
+                    This unique, over the top malted milkshake uses delicious
+                    Biscoff cookies in three different ways.
+                  </p>
+                  <h5 class="card-price">45.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+              <div class="prop-card drinks">
+                <a href="#"> <div class="prop-image img-19"></div></a>
+                <div class="prop-description">
+                  <h5>Rum Old-Fashioned</h5>
+                  <p>
+                    Put down the bourbon and mix up a rum old-fashioned instead.
+                  </p>
+                  <h5 class="card-price">65.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+            </div>
+            <div class="column">
+              <div class="prop-card steaks">
+                <a href="#"> <div class="prop-image img-4"></div></a>
+                <div class="prop-description">
+                  <h5>Steak With Gorgonzola Sauce</h5>
+                  <p>
+                    Steak and blue cheese are a flavor match made in heaven.
+                  </p>
+                  <h5 class="card-price">550.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+              <div class="prop-card drinks">
+                <a href="#"> <div class="prop-image img-8"></div></a>
+                <div class="prop-description">
+                  <h5>Frozen Cocktail</h5>
+                  <p>
+                    The frozen rock lobster cocktail is a fun and fruity blender
+                    drink.
+                  </p>
+                  <h5 class="card-price">45.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+              <div class="prop-card desserts">
+                <a href="#"> <div class="prop-image img-12"></div></a>
+                <div class="prop-description">
+                  <h5>Homemade Pop Tarts</h5>
+                  <p>
+                    Pop-Tarts are a brand of toaster pastries from Kellogg's
+                    that have been on store shelves.
+                  </p>
+                  <h5 class="card-price">55.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+              <div class="prop-card desserts">
+                <a href="#"> <div class="prop-image img-16"></div></a>
+                <div class="prop-description">
+                  <h5>Biscoff Cookie Pudding</h5>
+                  <p>
+                    The unique recipe created an iconic cookie with a unique
+                    flavor and a crunchy bite.
+                  </p>
+                  <h5 class="card-price">50.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+              <div class="prop-card steaks">
+                <a href="#"> <div class="prop-image img-20"></div></a>
+                <div class="prop-description">
+                  <h5>Delmonico Steak</h5>
+                  <p>
+                    Enjoy the beloved Delmonico steak from Michael Jordan's
+                    famous Chicago restaurant.
+                  </p>
+                  <h5 class="card-price">650.000VND</h5>
+                </div>
+                <a href="#"> </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="social-container">
+          <div class="footer-info">
+            <a href="https://www.instagram.com/">
+              <i class="fab fa-instagram social"></i>
+            </a>
+          </div>
+          <div class="footer-info">
+            <a href="https://www.facebook.com/">
+              <i class="fab fa-facebook-f social"></i>
+            </a>
+          </div>
+          <div class="footer-info">
+            <a href="https://twitter.com/">
+              <i class="fab fa-twitter social"></i>
+            </a>
+          </div>
+        </div>
+        <div class="more-info-container">
+          <div class="footer-info-2"></div>
+          <h5 class="more-info">
+            MET3
+          </h5>
+          <h5 class="more-info copyright">© 2023 Group9</h5>
+        </div>
+      </div>
+    </footer>
+    <script src="../JS/filter.js"></script>
+    <script src="../JS/menu-pass.js"></script>
+  </body>
+</html>

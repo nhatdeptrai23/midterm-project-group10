@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="../Assets/logo/logo-3.png" />
+    <title>Steak</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link href="../CSS/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrapper-nav">
+        <nav>
+          <input type="checkbox" id="show-menu" />
+          <label for="show-menu" class="menu-icon"
+            ><i class="fas fa-bars"></i
+          ></label>
+          <div class="content">
+            <div class="logo-container">
+              <a href="../index.html" class="home"><div class="logo"></div></a>
+            </div>
+            <div class="end-nav">
+              <ul class="links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a class="active-page" href="about.html">About Us</a></li>
+
+                <li>
+                  <a href="menu.html" class="menu-link">Menu</a>
+                  <input type="checkbox" id="show-Menu" />
+                  <label for="show-Menu">Menu</label>
+                  <ul>
+                    <li>
+                      <button class="btn-ul" onclick="setpage('all')">
+                        All
+                      </button>
+                    </li>
+                    <li>
+                      <button class="btn-ul" onclick="setpage('steaks')">
+                        Steaks
+                      </button>
+                    </li>
+                    <li>
+                      <button class="btn-ul" onclick="setpage('desserts')">
+                        Desserts
+                      </button>
+                    </li>
+                    <li>
+                      <button class="btn-ul" onclick="setpage('drinks')">
+                        Drinks
+                      </button>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="promo.html">Promo</a></li>
+
+                <li><a href="reservation.html">Reservation</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="section-background">
+          <div class="video-container">
+            <video autoplay muted loop class="video-me" id="video-play">
+              <source src="/Assets/video/video.mp4" type="video/mp4" />
+            </video>
+            <div class="video-background">
+              <h2>IT ALL STARTS WITH STEAK</h2>
+              <p>
+                Years ago, Steak had a goal to cook steaks no one could
+                forget<br />with steaks full of umami and juicy goodness no one
+                could resist.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="section-1">
+          <div class="about-us">
+            <p>
+              HEY, YOU'RE HERE! HAVE SOME STEAK.<br /><br />
+
+              OUR STEAKS COME FROM FROM QUALITY AND BEAUTIFUL<br />
+              CUTS OF MEAT, SELECTED BY EXPERTS AND GRILLED BY INCREDIBLE
+              CHEFS.<br /><br />
+
+              WHILE SOME TAKE SHORTCUTS AND CUT CORNERS, AT STEAK, WE DO<br />THINGS
+              THE RIGHT WAY BECAUSE THAT IS WHAT GREAT STEAK DESERVES. AND,<br />MORE
+              IMPORTANT, IT'S WHAT YOU DESERVE.<br /><br />
+
+              IN NEED FOR A CUT OF STEAK? STEAK'S ALWAYS HERE.
+            </p>
+          </div>
+          <div class="page-container-grid pg-1 small">
+            <div class="page-info page-about" id="grid-1">
+              <h2 class="title-info">Our Story</h2>
+              <p class="outro-info">
+                In 2023, STEAK opened the Taste of Meato Restaurant in his
+                Hometown near Country Village and welcomed our first customer
+                through the doors. In the following years, we'd held countless
+                celebrations with families and a lot of other people, from
+                birthdays, graduations, engagements, anniversaries, career
+                milestones even retirement dinners.
+                <br />
+                <br />
+                Conventionally, having steak at all was always considered a
+                luxury, a special occasion, a once in a year thing, if at all,
+                and was often hit or miss too. Thus our goal was and still, is
+                to make remarkable steaks available to everyone.
+              </p>
+            </div>
+            <div class="img-1 im-chef big-pic-2" id="grid-2"></div>
+          </div>
+        </section>
+        <section>
+          <div class="page-container-grid pg-2 small">
+            <div class="img-1 im-resto big-pic" id="grid-1"></div>
+            <div class="page-info page-about margin-info" id="grid-2">
+              <h2 class="title-info">Since 2023</h2>
+              <p class="outro-info">
+                After our months of beef research (yes it's actually a thing) we
+                finally got the hang of how to butcher properly on our own and
+                discovered that those secondary cuts from the very best beef
+                could be incredibly tasty as well and is actually affordable,
+                you never know how great steaks can be.
+                <br />
+                <br />
+                With a lot of twists and turns and help from a huge community of
+                committed people working together to achieve the same goal. We
+                finally made it people.
+                <br />
+                <br />
+                It’s where we started, where we are, and where we deeply hope to
+                stay.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="about-us">
+            <h2>
+              INCREDIBLE STEAKS, AVAILABLE TO ALL,<br />PASSIONATE<br />PEOPLE
+              AND LOVE.
+            </h2>
+          </div>
+          <div class="page-container-grid pg-1">
+            <div class="img-1 resto-special im-resto-1" id="grid-1"></div>
+
+            <div class="img-1 resto-special im-resto-2" id="grid-2"></div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="social-container">
+          <div class="footer-info">
+            <a href="https://www.instagram.com/">
+              <i class="fab fa-instagram social"></i>
+            </a>
+          </div>
+          <div class="footer-info">
+            <a href="https://www.facebook.com/">
+              <i class="fab fa-facebook-f social"></i>
+            </a>
+          </div>
+          <div class="footer-info">
+            <a href="https://twitter.com/">
+              <i class="fab fa-twitter social"></i>
+            </a>
+          </div>
+        </div>
+        <div class="more-info-container">
+          <div class="footer-info-2"></div>
+          <h5 class="more-info">
+            MET3
+          </h5>
+          <h5 class="more-info copyright">© 2021 Group9</h5>
+        </div>
+      </div>
+    </footer>
+    <script src="../JS/menu-pass.js"></script>
+  </body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="../Assets/logo/logo-3.png" />
+    <title>Steak</title>
+    <link href="../CSS/style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="wrapper-nav">
+        <nav>
+          <input type="checkbox" id="show-menu" />
+          <label for="show-menu" class="menu-icon"
+            ><i class="fas fa-bars"></i
+          ></label>
+          <div class="content">
+            <div class="logo-container">
+              <a href="../index.html" class="home"><div class="logo"></div></a>
+            </div>
+            <div class="end-nav">
+              <ul class="links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+
+                <li>
+                  <a href="menu.html" class="menu-link">Menu</a>
+                  <input type="checkbox" id="show-Menu" />
+                  <label for="show-Menu">Menu</label>
+                  <ul>
+                    <li>
+                      <button class="btn-ul" onclick="setpage('all')">
+                        All
+                      </button>
+                    </li>
+                    <li>
+                      <button class="btn-ul" onclick="setpage('steaks')">
+                        Steaks
+                      </button>
+                    </li>
+                    <li>
+                      <button class="btn-ul" onclick="setpage('desserts')">
+                        Desserts
+                      </button>
+                    </li>
+                    <li>
+                      <button class="btn-ul" onclick="setpage('drinks')">
+                        Drinks
+                      </button>
+                    </li>
+                  </ul>
+                </li>
+                <li><a class="active-page" href="promo.html">Promo</a></li>
+
+                <li><a href="reservation.html">Reservation</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="section-1">
+          <h2 class="title">Our Promo</h2>
+          <div class="page-container-grid pg-2 promo-container">
+            <div class="promo-img" id="grid-1"></div>
+            <div class="page-info promo-info" id="grid-2">
+              <div class="attention">
+                <p class="intro-info">Valid until 24 July 2023</p>
+              </div>
+
+              <h2 class="title-info">10% Off Any 2 Subs Or Steak Hoagies</h2>
+              <p class="outro-info">
+                Spend 200.000VND or more and use this Steak promo code to
+                receive 10% off your purchase on steaks.
+              </p>
+              <div class="promo-c-container">
+                <div class="promo-b-container">
+                  <div class="promo-code-container">
+                    <div class="see-promo">
+                      <p>See Promo Code</p>
+                    </div>
+                    <p>YWN82N</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="page-container-grid pg-2 promo-container">
+            <div class="promo-img img-two" id="grid-1"></div>
+            <div class="page-info promo-info" id="grid-2">
+              <div class="attention">
+                <p class="intro-info">Valid until 15 July 2023</p>
+              </div>
+
+              <h2 class="title-info">
+                2 Free Lbs Of Flank Steak On Orders 50K+ VND
+              </h2>
+              <p class="outro-info">
+                Buy our steak and save at Steak with this promotional code
+                when you check out. Ending 15 July 2023.
+              </p>
+              <div class="promo-c-container">
+                <div class="promo-b-container">
+                  <div class="promo-code-container">
+                    <div class="see-promo">
+                      <p>See Promo Code</p>
+                    </div>
+                    <p>GEA123</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="page-container-grid pg-2 promo-container">
+            <div class="promo-img img-three" id="grid-1"></div>
+            <div class="page-info promo-info" id="grid-2">
+              <div class="attention">
+                <p class="intro-info">Valid until 12 July 2023</p>
+              </div>
+
+              <h2 class="title-info">
+                Gluten Free At Steak: Up To 65% Off
+              </h2>
+              <p class="outro-info">
+                If you can't eat gluten, Steak is here to help! Get
+                delicious gluten-free meals delivered straight to you!
+              </p>
+              <div class="promo-c-container">
+                <div class="promo-b-container">
+                  <div class="promo-code-container">
+                    <div class="see-promo">
+                      <p>See Promo Code</p>
+                    </div>
+                    <p>O9MMSP</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="page-container-grid pg-2 promo-container">
+            <div class="promo-img img-four" id="grid-1"></div>
+            <div class="page-info promo-info" id="grid-2">
+              <div class="attention">
+                <p class="intro-info">Valid until 1 July 2023</p>
+              </div>
+
+              <h2 class="title-info">Treat Yourself: Up To 50% Off Desserts</h2>
+              <p class="outro-info">
+                You deserve something sweet! Enjoy Biscuit Milkshake, Pop Tarts
+                & more, and use this Steak coupon for up to 50% off.
+              </p>
+              <div class="promo-c-container">
+                <div class="promo-b-container">
+                  <div class="promo-code-container">
+                    <div class="see-promo">
+                      <p>See Promo Code</p>
+                    </div>
+                    <p>DM2EKQ</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="social-container">
+          <div class="footer-info">
+            <a href="https://www.instagram.com/">
+              <i class="fab fa-instagram social"></i>
+            </a>
+          </div>
+          <div class="footer-info">
+            <a href="https://www.facebook.com/">
+              <i class="fab fa-facebook-f social"></i>
+            </a>
+          </div>
+          <div class="footer-info">
+            <a href="https://twitter.com/">
+              <i class="fab fa-twitter social"></i>
+            </a>
+          </div>
+        </div>
+        <div class="more-info-container">
+          <div class="footer-info-2"></div>
+          <h5 class="more-info">
+            MET3
+          </h5>
+          <h5 class="more-info copyright">© 2023 GROUP9</h5>
+        </div>
+      </div>
+    </footer>
+    <script src="../JS/menu-pass.js"></script>
+  </body>
+</html>

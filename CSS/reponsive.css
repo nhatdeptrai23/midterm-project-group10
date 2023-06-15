@@ -1,0 +1,668 @@
+@media screen and (max-width: 1920px) {
+    .container section {
+      max-width: calc(100% - 15rem);
+    }
+  
+    .container .section-1 {
+      width: 100%;
+    }
+    .container .section-3 {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 1890px) {
+    section .page-container-grid .page-about p {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media screen and (max-width: 1700px) {
+    /*menu*/
+    section .column .prop-card {
+      margin: 0em auto 6em auto;
+      width: 100%;
+    }
+    section .btn-nav {
+      max-width: 65%;
+    }
+    section .card-container {
+      grid-template-columns: 25% 75%;
+      width: 100%;
+    }
+  
+    /*page-grid*/
+    section .page-container-grid .page-info {
+      height: 40rem;
+    }
+  
+    section .page-container-grid .page-info h2 {
+      font-size: 4rem;
+      line-height: 86px;
+    }
+    section .page-container-grid .page-info p {
+      font-size: 1.2rem;
+      line-height: 36px;
+    }
+    section .page-container-grid .page-info .button-page h4 {
+      font-size: 1.2em;
+    }
+    /*slider*/
+    .slider .slide .background-slide h2 {
+      font-size: 4em;
+    }
+    .slider .slide .background-slide p {
+      font-size: 1.3em;
+    }
+    section .slider-container .slider {
+      height: 35rem;
+    }
+    section .slider-container .button-container {
+      height: 35rem;
+    }
+  
+    section .slider-container .pagination-container {
+      height: 2rem;
+    }
+  
+    section .slider-container .button-container button {
+      font-size: 2em;
+    }
+  
+    section .slider-container .slider .slides {
+      height: 35rem;
+    }
+    section .slider-container .slider .slide {
+      height: 35rem;
+    }
+  
+    /*promo*/
+    section .promo-container {
+      width: 100%;
+    }
+    section .promo-container h2 {
+      font-size: 4.5rem !important;
+      line-height: 84px !important;
+    }
+  
+    /*about*/
+    section .video-background h2 {
+      font-size: 4.5rem;
+      line-height: 5rem;
+    }
+  
+    section .video-background p {
+      font-size: 1.5rem;
+    }
+    section .about-us h2 {
+      font-size: 3rem;
+    }
+    section .page-container-grid .page-about p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 1440px) {
+    .wrapper-nav nav {
+      max-width: 100%;
+      padding: 0 2rem;
+    }
+  
+    .content .links li a {
+      padding: 2.5em 2em;
+    }
+    .content .links li:hover > ul {
+      width: 8rem;
+    }
+    .content .links ul li button {
+      padding: 1.5em 0.5em;
+      font-size: 1em;
+    }
+  
+    .container section {
+      max-width: 100%;
+      padding: 0 3rem;
+    }
+    footer .footer-container {
+      max-width: 100%;
+      padding: 3rem 3rem 0.5rem 3rem;
+    }
+  
+    section .btn-nav {
+      max-width: 100%;
+    }
+    /*slider*/
+    .slider .slide .background-slide h2 {
+      font-size: 4.5em;
+    }
+    .slider .slide .background-slide p {
+      font-size: 1.2em;
+    }
+    /*promo*/
+    section .promo-container h2 {
+      font-size: 4rem !important;
+      line-height: 64px !important;
+    }
+  
+    /*about*/
+    .section-background {
+      padding: 0 0 !important;
+    }
+  
+    /*about*/
+    section .video-background h2 {
+      font-size: 3rem;
+      line-height: 3rem;
+    }
+  
+    section .video-background p {
+      font-size: 1rem;
+    }
+  
+    section .about-us p {
+      font-size: 1.5rem;
+    }
+    section .about-us h2 {
+      font-size: 2.5rem;
+    }
+    /* footer */
+    footer .footer-container .footer-info-2 {
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 1250px) {
+    /*menu*/
+    section .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  
+    section .page-container-grid .page-info {
+      padding-top: 3.5em;
+    }
+    section .page-container-grid .page-info h2 {
+      font-size: 3.2rem;
+      line-height: 64px;
+    }
+    section .page-container-grid .page-info p {
+      font-size: 1rem;
+      line-height: 28px;
+    }
+    section .page-container-grid .page-info .button-page h4 {
+      font-size: 1em;
+    }
+    section .page-container-grid {
+      margin: 0 auto 0 auto;
+    }
+  
+    /*slider*/
+    .slider .slide .background-slide h2 {
+      font-size: 3.5em;
+    }
+    .slider .slide .background-slide p {
+      font-size: 1em;
+    }
+    /*about*/
+  
+    section .page-container-grid .page-about p {
+      width: 100% !important;
+    }
+    section .page-container-grid .page-about {
+      padding-top: 0;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .content .links li a {
+      padding: 2.5em 1.5em;
+    }
+    .slider .slide .background-slide p {
+      width: 70%;
+    }
+    section .promo-container h2 {
+      font-size: 3.5rem !important;
+      line-height: 64px !important;
+    }
+    section .about-us p {
+      font-size: 1.1rem;
+    }
+    section .about-us h2 {
+      font-size: 1.7rem;
+    }
+    nav .content .end-nav {
+      width: 80vw;
+    }
+  
+    footer .footer-container .footer-info .social {
+      font-size: 2em;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .wrapper-nav nav {
+      justify-content: space-between;
+    }
+  
+    nav .menu-icon {
+      z-index: 100;
+      display: block;
+    }
+    nav #show-menu:checked ~ .menu-icon i::before {
+      content: "\f00d";
+    }
+    nav .content .links {
+      display: block;
+      position: fixed;
+      background: #e43c47;
+      height: 100%;
+      width: 100%;
+      top: 8rem;
+      left: -100%;
+      margin-left: 0;
+      max-width: 500px;
+      overflow-y: auto;
+      padding-bottom: 100px;
+      transition: all 0.3s ease;
+    }
+    nav #show-menu:checked ~ .content .links {
+      left: 0%;
+    }
+    .content .links li {
+      margin: 1.5rem 1rem;
+    }
+    .content .links li a,
+    .content .links li label {
+      z-index: 100;
+      line-height: 40px;
+      font-size: 20px;
+      display: block;
+      padding: 1em 1em;
+      cursor: pointer;
+      color: #fff;
+    }
+    .content .links li a:hover,
+    .content .links li label:hover {
+      color: #f2d295;
+    }
+  
+    .content .links li a.menu-link {
+      display: none;
+    }
+  
+    /* dropdown responsive code start */
+    .content .links ul,
+    .content .links ul ul {
+      position: static;
+      opacity: 1;
+      visibility: visible;
+      background: #e74a54;
+  
+      max-height: 0px;
+      width: 100%;
+      overflow: hidden;
+    }
+    .content .links #show-Menu:checked ~ ul {
+      max-height: 100vh;
+    }
+    .content .links ul li button:hover {
+      color: #f2d295;
+      background: #e97d7d;
+    }
+    .content .links li:hover > ul {
+      top: 0rem;
+      padding-top: 0rem;
+      opacity: 1;
+      width: auto;
+      text-align: left;
+      visibility: visible;
+      transition: all 0.3s ease;
+    }
+  
+    .content .links ul li button {
+      font-size: 18px;
+      line-height: 30px;
+  
+      border-radius: 20px !important;
+    }
+    nav .content .end-nav {
+      width: 0;
+    }
+    .content .links li a.active-page {
+      color: #fff;
+    }
+  
+    /*page*/
+    .container .section-1 {
+      margin-top: 1rem;
+    }
+  
+    /*form*/
+    section .card-container {
+      grid-template-columns: 100%;
+      width: 100%;
+    }
+    section .card-container .card-img {
+      border-radius: 40px 40px 0 0;
+      height: 20rem;
+    }
+    section .card-container .card-content {
+      height: 35rem;
+      border-radius: 0 0 40px 40px;
+    }
+    section .card-container form select,
+    section .card-container form input {
+      margin: 1em 1em;
+    }
+  
+    /*slider*/
+    .slider .slide .background-slide h2 {
+      font-size: 3em;
+    }
+  
+    /*menu*/
+  
+    section .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+    section .column .prop-card {
+      width: 90%;
+    }
+    section .btn-nav {
+      justify-content: center;
+      margin-bottom: 1rem;
+      grid-gap: 0.5rem;
+    }
+    section .filter-btn {
+      font-size: 1rem;
+    }
+  
+    /*page-grid*/
+    section .page-container-grid {
+      grid-template-columns: 100%;
+    }
+    section .pg-1 {
+      grid-template-areas: " grid-2 " " grid-1 ";
+    }
+    section .pg-2 {
+      grid-template-areas: " grid-1 " " grid-2 ";
+    }
+  
+    section .page-container-grid .page-info {
+      padding-top: 2em;
+      height: 27rem;
+    }
+  
+    section .page-container-grid .img-1 {
+      height: 20rem;
+    }
+    section .page-container-grid .page-info h2 {
+      font-size: 2.3rem;
+      line-height: 48px;
+    }
+    section .page-container-grid .page-info p {
+      font-size: 1rem;
+    }
+    .slider-container .slider .slide .background-slide {
+      padding: 3em;
+    }
+    section .slider-container .button-container button {
+      font-size: 1.5em;
+    }
+    /*promo*/
+    section .promo-container .promo-img {
+      border-radius: 40px 40px 0 0;
+      width: 100%;
+      height: 15rem;
+    }
+    section .promo-container .promo-info {
+      padding-right: 10%;
+      padding-left: 10%;
+    }
+    section .promo-container h2 {
+      font-size: 2.5rem !important;
+      line-height: 54px !important;
+    }
+  
+    /*about*/
+    section .video-background h2 {
+      font-size: 2.5rem;
+      line-height: 3rem;
+    }
+  
+    section .video-background p {
+      font-size: 0.8rem;
+    }
+    section .about-us p {
+      font-size: 0.9rem;
+    }
+    section .about-us h2 {
+      font-size: 1.5rem;
+    }
+    section .page-container-grid .big-pic {
+      margin-left: auto !important;
+    }
+  
+    section .page-container-grid .big-pic-2 {
+      margin-right: auto !important;
+    }
+    section .page-container-grid .margin-info {
+      margin-left: 0;
+    }
+  
+    section .page-container-grid .page-about {
+      display: flex;
+  
+      align-items: center;
+  
+      margin: auto;
+    }
+    section .page-about {
+      height: 30rem !important;
+    }
+  
+    section .page-container-grid .resto-special {
+      margin: 2rem auto;
+    }
+    section .page-container-grid .page-about p {
+      width: 90% !important;
+      text-align: justify !important;
+    }
+  
+    /*footer-responsive*/
+  
+    footer .footer-container {
+      padding: 1.5rem 3rem 0.5rem 3rem;
+    }
+  
+    footer .footer-container .footer-info .social {
+      font-size: 1.5em;
+      margin: 0 1em;
+    }
+    footer .footer-container .more-info-container .more-info {
+      font-size: 0.6em;
+    }
+  
+    footer .footer-container .footer-info-2 {
+      height: 0.3em;
+      width: 100%;
+      margin: 1.5rem auto 1rem auto;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .draggable {
+      flex-direction: column !important;
+    }
+    .btn-nav {
+      grid-template-columns: auto auto !important;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+  
+    section .promo-container .intro-info {
+      font-size: 0.8em !important;
+    }
+  
+    section .filter-btn {
+      margin: 0.2rem 0.5rem;
+    }
+    section .promo-container h2 {
+      font-size: 1.5rem !important;
+      line-height: 34px !important;
+    }
+    section .page-about {
+      height: 35rem !important;
+    }
+  
+    section .video-background h2 {
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+  
+    section .video-background p {
+      font-size: 0.75rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    /*form*/
+    section .card-container .form-row {
+      flex-direction: column;
+    }
+    section .card-container {
+      margin: 0 auto 4em auto;
+    }
+    section .card-container .card-img {
+      height: 10rem;
+    }
+    section .card-container .card-content {
+      height: 48rem;
+    }
+  
+    section .card-container .card-content h3 {
+      font-size: 1.5em;
+    }
+    section .card-container form select,
+    section .card-container form input {
+      font-size: 1em;
+      width: 90%;
+      margin: 2em auto;
+      margin: 2em 1em 0 1em;
+    }
+    .form-row.form-submit {
+      justify-content: center;
+      align-items: center;
+    }
+  
+    section .card-container form input[type="submit"] {
+      width: 80%;
+      bottom: 5%;
+      right: auto;
+    }
+    section .card-container .error {
+      font-size: 0.6em;
+      margin: 0.5em 1.5em 0em 2em;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    /*slider*/
+    .slider .slide .background-slide h2 {
+      font-size: 1.8em;
+    }
+    .slider .slide .background-slide p {
+      font-size: 0.7em;
+    }
+    section .slider-container .slider {
+      height: 25rem;
+    }
+    section .slider-container .button-container {
+      height: 25rem;
+    }
+  
+    section .slider-container .pagination-container {
+      height: 2rem;
+    }
+  
+    section .slider-container .button-container button {
+      font-size: 1em;
+    }
+  
+    .slider-container .slider .slide .background-slide {
+      padding: 2em;
+    }
+  
+    section .slider-container .slider .slides {
+      height: 25rem;
+    }
+    section .slider-container .slider .slide {
+      height: 25rem;
+    }
+    section .slider-container .down-arr {
+      display: inline-block;
+      margin-top: 1rem;
+      font-size: 2em;
+      cursor: pointer;
+    }
+    section .slider-container {
+      margin-bottom: 0rem;
+    }
+    section .slider-container .down-arr a {
+      text-decoration: none;
+      color: #000;
+    }
+  
+    /*about*/
+    section .about-us h2 {
+      font-size: 1.2rem;
+    }
+    section .page-container-grid .page-about p {
+      font-size: 0.8em !important;
+    }
+  
+    section .video-background p {
+      font-size: 0.9rem;
+      margin-top: 0.7em;
+      padding: 0 1em;
+    }
+    section .page-about {
+      height: 38rem !important;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .wrapper-nav nav {
+      padding: 0 1rem;
+    }
+    .container section {
+      padding: 0 2rem;
+    }
+    .filter-nav {
+      padding: 0 0;
+    }
+    section .sp-right {
+      margin: auto;
+    }
+    section .title {
+      font-size: 2em;
+    }
+  
+    section .margin-info {
+      height: 42rem !important;
+    }
+  }
+  
+  @media screen and (max-width: 350px) {
+    section .page-container-grid .page-info {
+      height: 30rem;
+    }
+  
+    section .page-container-grid .page-info h2 {
+      font-size: 1.8rem;
+      line-height: 28px;
+    }
+  }
+  
