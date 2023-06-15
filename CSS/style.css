@@ -1,3 +1,5 @@
+/* font family */
+
 @font-face {
   font-family: Poppins-Black;
   src: url("../Assets/font/Poppins-Black.ttf");
@@ -43,7 +45,7 @@ html {
 body {
   background-color: #ebe0ce;
 }
-
+/* wrapper */
 .wrapper-nav {
   background: #ebe0ce;
   position: fixed;
@@ -61,6 +63,8 @@ body {
   z-index: 100;
   transition: all 0.4s ease;
 }
+
+/* content */
 nav .content {
   display: flex;
   max-width: 1920px;
@@ -140,11 +144,11 @@ nav .content .links {
 
 .content .links li a:hover,
 .content .links li label:hover {
-  color: #e43c47;
+  color: #5C8984;
 }
 
 .content .links li a.active-page {
-  color: #e43c47;
+  color: #5C8984;
 }
 
 .content .links li .menu-font:hover {
@@ -168,7 +172,7 @@ nav input[type="checkbox"] {
 
 .content .links ul {
   position: absolute;
-  background: #e43c47;
+  background: #5C8984;
   z-index: -1;
   opacity: 0;
   visibility: hidden;
@@ -202,7 +206,7 @@ nav input[type="checkbox"] {
 }
 .content .links ul li button:hover {
   color: #f2d295;
-  background: #e4515b;
+  background: #5C8984;
 }
 
 .content .links ul li {
@@ -269,7 +273,7 @@ section .page-container-grid .page-info p {
   transition: all 0.3s ease;
 }
 section .page-container-grid .page-info .intro-info {
-  color: #e43c47;
+  color: #5C8984;
 }
 section .page-container-grid .page-info .outro-info {
   font-family: Poppins-Regular;
@@ -617,11 +621,11 @@ section .filter-btn {
 
 section .filter-btn:hover {
   color: white;
-  background-color: #e04853;
+  background-color: #5C8984;
 }
 
 section .filter-btn.active {
-  background-color: #e43c47;
+  background-color: #5C8984;
   color: white;
 }
 
@@ -655,7 +659,7 @@ section .column {
 
 .prop-card .card-price {
   position: absolute;
-  color: #e43c47;
+  color: #5C8984;
   bottom: 1em;
   transition: all 0.5s ease;
 }
@@ -874,7 +878,7 @@ select {
 }
 section .card-container form input[type="submit"] {
   color: #fff;
-  background: #e74a54;
+  background: #5C8984;
   padding: 12px 0;
   width: calc(40% - 10px - 4em);
   position: absolute;
@@ -921,7 +925,7 @@ section .promo-container .promo-info {
   padding-top: 2em;
 }
 section .promo-container .intro-info {
-  color: #e43c47 !important;
+  color: #5C8984 !important;
   display: inline-block;
   padding: 0.1em 1.5em;
   margin-bottom: 0.8em;
@@ -982,7 +986,7 @@ section .promo-container .see-promo:hover {
 
 /*footer*/
 footer {
-  background-color: #e43c47;
+  background-color: #5C8984;
 }
 
 footer .footer-container {
@@ -1295,7 +1299,7 @@ footer .footer-container .footer-info-2 {
   nav .content .links {
     display: block;
     position: fixed;
-    background: #e43c47;
+    background: #5C8984;
     height: 100%;
     width: 100%;
     top: 8rem;
@@ -1337,7 +1341,7 @@ footer .footer-container .footer-info-2 {
     position: static;
     opacity: 1;
     visibility: visible;
-    background: #e74a54;
+    background: #5C8984;
 
     max-height: 0px;
     width: 100%;
@@ -1348,7 +1352,7 @@ footer .footer-container .footer-info-2 {
   }
   .content .links ul li button:hover {
     color: #f2d295;
-    background: #e97d7d;
+    background: #5C8984;
   }
   .content .links li:hover > ul {
     top: 0rem;
