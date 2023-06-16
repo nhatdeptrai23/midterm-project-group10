@@ -252,10 +252,10 @@ section .page-container-grid {
   grid-template-areas: " grid-1 grid-2 ";
 }
 
-#grid-1 {
+.grid-1 {
   grid-area: grid-1;
 }
-#grid-2 {
+.grid-2 {
   grid-area: grid-2;
 }
 
